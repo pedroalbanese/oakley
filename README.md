@@ -1,5 +1,5 @@
 # Oakley 192-bit
-Parameters for the Oakley 192-bit Random ECP Group Elliptic curve IETF in RFC5114
+Parameters for the Oakley 192/256-bit Random ECP Group Elliptic curves IETF in RFC5114
 
 ## License
 
