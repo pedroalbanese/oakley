@@ -1,5 +1,5 @@
 // Parameters for the Oakley192 Elliptic curve
-package oakley192
+package oakley
 
 import (
 	"crypto/elliptic"
