@@ -1,4 +1,4 @@
-// Oakley Random ECP Group Elliptic curves IETF in RFC5114r
+// Oakley Random ECP Group Elliptic curves IETF in RFC5114
 package main
 
 import (
