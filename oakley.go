@@ -1,4 +1,4 @@
-// Parameters for the Oakley192 Elliptic curve
+// Parameters for the Oakley192/256 Elliptic curve
 package oakley
 
 import (
