@@ -1,4 +1,4 @@
-// Oakley Random ECP Group Elliptic curves IETF in RFC5114
+// Oakley Random ECP Group Elliptic curves IETF in RFC5114r
 package main
 
 import (
@@ -58,12 +58,11 @@ func main() {
 				os.Exit(1)
 			}
 		}
-
-	pubkey = privatekey.PublicKey
-	fmt.Println("Private= " + WritePrivateKeyToHex(privatekey))
-	fmt.Println("Public= " + WritePublicKeyToHex(&pubkey))
-	os.Exit(0)
-}
+		pubkey = privatekey.PublicKey
+		fmt.Println("Private= " + WritePrivateKeyToHex(privatekey))
+		fmt.Println("Public= " + WritePublicKeyToHex(&pubkey))
+		os.Exit(0)
+	}
 
 	private, err := ReadPrivateKeyFromHex(*key)
 	if err != nil {
